@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".temperature">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#248993"
+        android:paddingBottom="30px"
+        android:text="Temperatura"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+
+
+    <EditText
+        android:id="@+id/txtTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese su Temperatura"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/txtFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:text="Fahrenheit "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtKelvin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:text="Kelvin"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+</LinearLayout>
